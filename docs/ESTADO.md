@@ -2,7 +2,7 @@
 
 [← Inicio](../README.md)
 
-**Estado publicado:** Prototipo jugable local.  
+**Estado publicado:** Videojuego en desarrollo · Colaboración de diseño 2D.  
 **Fecha de revisión:** 28 de septiembre de 2026.
 
 ## Qué se ha comprobado

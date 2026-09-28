@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Un juego de combate 2D que reúne portadores elementales, movimiento aéreo, transformaciones y creación de escenarios en una misma experiencia.
+Mi videojuego de combate elemental 2D: portadores, transformaciones, movimiento aéreo y escenarios que se pueden crear y explorar. Desarrollado en Godot, con colaboración de una diseñadora 2D en su evolución visual.
 
 **Tecnologías asociadas al proyecto:** Godot · GDScript · Android · Windows.
 
