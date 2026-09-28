@@ -1,0 +1,27 @@
+# Etherune / Estado y evidencia
+
+[← Inicio](../README.md)
+
+**Estado publicado:** Prototipo jugable local.  
+**Fecha de revisión:** 28 de septiembre de 2026.
+
+## Qué se ha comprobado
+
+Las notas 0.3.0 documentan una exportación Android de prueba y combate local con IA. Existen informes de regresión de revisiones anteriores; sus conteos no se atribuyen automáticamente a 0.3.0. En esta publicación se revisaron las capturas, sin repetir una campaña completa de pruebas.
+
+## Alcance actual
+
+- No se anuncia una versión publicada en tiendas ni un servicio multijugador.
+- La compatibilidad con todos los dispositivos y el equilibrio competitivo no están certificados.
+
+## Siguientes pasos
+
+- Pulir legibilidad del combate y feedback táctil.
+- Ampliar pruebas en dispositivos y sesiones prolongadas.
+- Consolidar el recorrido entre selección, arena y editor.
+
+## Cómo se mantiene este caso
+
+Las capacidades nuevas deben acompañarse de evidencia identificable: una revisión, una captura real o una demostración reproducible. Las propuestas y los resultados de revisiones anteriores conservan su contexto.
+
+Este repositorio contiene una historia nueva de documentación pública. La implementación y los datos del producto se conservan en privado.
