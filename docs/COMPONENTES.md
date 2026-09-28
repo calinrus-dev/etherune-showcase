@@ -24,7 +24,7 @@ Combate local con IA, movimiento terrestre y aéreo y controles adaptados a pant
 
 ## 03 / Forja de mapas
 
-Creación y prueba de escenarios propios con materiales, relieves y condiciones ambientales.
+Edición de escenarios con materiales, relieves y condiciones ambientales.
 
 **En el recorrido:** Combinar movimiento y habilidad.
 

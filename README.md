@@ -19,7 +19,7 @@ Construir un combate con identidad exige que personaje, controles, efectos y ent
 
 - **Portadores.** Identidades elementales con habilidades, Resonancia y transformaciones diferenciadas.
 - **Arena.** Combate local con IA, movimiento terrestre y aéreo y controles adaptados a pantalla táctil.
-- **Forja de mapas.** Creación y prueba de escenarios propios con materiales, relieves y condiciones ambientales.
+- **Forja de mapas.** Edición de escenarios con materiales, relieves y condiciones ambientales.
 - **Laboratorio.** Un espacio para observar interacciones, entrenar y comparar situaciones de combate.
 
 ![Mapa conceptual de Etherune: Elegir portador → Entrar en arena → Combinar movimiento y habilidad → Probar otro escenario.](assets/experiencia.svg)

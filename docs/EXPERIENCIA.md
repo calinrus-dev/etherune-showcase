@@ -22,7 +22,7 @@ La revisión de esta fase observa si el contexto, la acción disponible y el res
 
 ### 3. Combinar movimiento y habilidad
 
-Creación y prueba de escenarios propios con materiales, relieves y condiciones ambientales.
+Edición de escenarios con materiales, relieves y condiciones ambientales.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 

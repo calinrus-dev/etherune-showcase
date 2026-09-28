@@ -28,7 +28,7 @@ Este guion sirve para explicar el recorrido documentado y preparar una demostrac
 
 1. **Elegir portador.** Observar: Identidades elementales con habilidades, Resonancia y transformaciones diferenciadas.
 2. **Entrar en arena.** Observar: Combate local con IA, movimiento terrestre y aéreo y controles adaptados a pantalla táctil.
-3. **Combinar movimiento y habilidad.** Observar: Creación y prueba de escenarios propios con materiales, relieves y condiciones ambientales.
+3. **Combinar movimiento y habilidad.** Observar: Edición de escenarios con materiales, relieves y condiciones ambientales.
 4. **Probar otro escenario.** Observar: Un espacio para observar interacciones, entrenar y comparar situaciones de combate.
 
 ## Lectura de la lámina
