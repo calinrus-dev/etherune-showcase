@@ -1,63 +1,34 @@
-![Etherune — Combate elemental. Mundos que responden.](assets/hero.svg)
+# Etherune / El combate empieza en el control.
 
-# Etherune
+**Mi videojuego 2D en desarrollo.** Portadores, combate elemental, Resonancia, transformaciones y movimiento aéreo, con laboratorio y editor de escenarios. Estoy trabajando con una diseñadora 2D en su evolución visual.
 
-**Combate elemental. Mundos que responden.**
+**Godot · GDScript** · Windows y Android como destinos del proyecto.
 
-Mi videojuego de combate elemental 2D: portadores, transformaciones, movimiento aéreo y escenarios que se pueden crear y explorar. Desarrollado en Godot, con colaboración de una diseñadora 2D en su evolución visual.
+![Arena real de Etherune en una captura del proyecto.](assets/arena.png)
 
-**Stack:** Godot · GDScript · Android · Windows  
-**Estado:** Videojuego en desarrollo · Colaboración de diseño 2D
+[Ver lobby, arena y portadores](docs/DEMOSTRACIONES.md)
 
-[Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
+## El control tiene que soltar cuando tú sueltas
 
-## El problema que aborda
+[**Probar el laboratorio de movimiento →**](https://calinrus-dev.github.io/etherune-showcase/) · [Curva y control de propiedad del gesto](samples/stick.js) · [Pruebas](test/stick.test.mjs)
 
-Construir un combate con identidad exige que personaje, controles, efectos y entorno respondan al mismo lenguaje. Etherune explora esa relación en una experiencia local y editable.
+Un segundo dedo no debe robar el stick. Perder foco no puede dejar una acción pegada. La diagonal debe respetar el límite del vector. Son fallos pequeños hasta que pierdes una partida por ellos.
 
-## Qué compone la experiencia
+La curva direccional está portada desde `TouchStick.gd`; la gestión aislada del gesto y la interfaz de navegador son nuevas para esta publicación. No es una versión web del juego.
 
-- **Portadores.** Identidades elementales con habilidades, Resonancia y transformaciones diferenciadas.
-- **Arena.** Combate local con IA, movimiento terrestre y aéreo y controles adaptados a pantalla táctil.
-- **Forja de mapas.** Edición de escenarios con materiales, relieves y condiciones ambientales.
-- **Laboratorio.** Un espacio para observar interacciones, entrenar y comparar situaciones de combate.
+[![Pruebas de la muestra](https://github.com/calinrus-dev/etherune-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/calinrus-dev/etherune-showcase/actions/workflows/verify.yml)
 
-![Mapa conceptual de Etherune: Elegir portador → Entrar en arena → Combinar movimiento y habilidad → Probar otro escenario.](assets/experiencia.svg)
+~~~sh
+node --test test/*.test.mjs
+~~~
 
-*Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+## Sensación y decisiones
 
-## Galería real
+La curva tiene una zona muerta por eje y una fuerza mínima al activarse. Eso produce un salto deliberado en el umbral; no se vende como una curva suave. El laboratorio expone los valores para que puedas discutir la decisión, no solo mirar un vídeo.
 
-![Lobby de la versión Android 0.3.0. Perfil de prueba.](assets/lobby.png)
+El juego sigue evolucionando: combate, lectura visual y contenido. Las capturas documentan escenas reales; no acreditan multijugador online, una exportación comercial autónoma ni pruebas en todos los dispositivos.
 
-*Lobby de la versión Android 0.3.0. Perfil de prueba.*
+[Sistemas del juego](docs/COMPONENTES.md) · [Estado de desarrollo](docs/ESTADO.md) · [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
-![Arena local con controles táctiles. Captura de prueba; no demuestra conexión online.](assets/arena.png)
 
-*Arena local con controles táctiles. Captura de prueba; no demuestra conexión online.*
-
-![Comparación visual de portadores en el laboratorio local.](assets/portadores.png)
-
-*Comparación visual de portadores en el laboratorio local.*
-
-## Decisiones que definen el proyecto
-
-- **Identidad antes que volumen.** Cada portador debe reconocerse por su movimiento, sus efectos y sus posibilidades de juego.
-- **Crear y jugar cerca.** El editor y el laboratorio acortan el recorrido entre construir una arena y comprobar cómo se juega.
-- **Experiencia local explícita.** Las escenas de combate no se presentan como multijugador online.
-
-## Explorar el caso
-
-- [Experiencia y recorrido](docs/EXPERIENCIA.md): intención, interacción y criterios de revisión.
-- [Componentes](docs/COMPONENTES.md): las piezas visibles y el papel de cada una.
-- [Diseño técnico](docs/ARQUITECTURA.md): responsabilidades y compromisos de diseño.
-- [Demostraciones](docs/DEMOSTRACIONES.md): qué enseñan las imágenes y cómo leer la evidencia.
-- [Estado y siguientes pasos](docs/ESTADO.md): alcance actual, comprobaciones y trabajo pendiente.
-
-## Sobre este repositorio
-
-Caso de estudio público de un proyecto con implementación privada. Reúne documentación, diagramas e imágenes seleccionadas. Los detalles del motor, integraciones, datos operativos y código se mantienen en los repositorios privados.
-
-Revisión editorial: 28 de septiembre de 2026. Autor: [Calin Rus](https://github.com/calinrus-dev).
-
-[calinrus.com](https://calinrus.com) · [Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [Todos los proyectos](https://github.com/calinrus-dev/portfolio)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)

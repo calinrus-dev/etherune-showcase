@@ -1,0 +1,5 @@
+import {createStick} from '../samples/stick.js';const s=createStick(),q=id=>document.getElementById(id),zone=q('zone');
+function draw(){q('vector').textContent=JSON.stringify(s.state(),(key,value)=>typeof value==='number'?Number(value.toFixed(4)):value,2);}
+zone.addEventListener('pointerdown',e=>{if(s.begin(e.pointerId,e.clientX,e.clientY)){zone.setPointerCapture(e.pointerId);draw();}});zone.addEventListener('pointermove',e=>{s.move(e.pointerId,e.clientX,e.clientY);draw();});for(const type of ['pointerup','pointercancel','lostpointercapture'])zone.addEventListener(type,e=>{s.end(e.pointerId);draw();});
+function stop(){s.cancel();draw();}window.addEventListener('blur',stop);document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});q('stop').addEventListener('click',stop);
+for(const button of document.querySelectorAll('[data-dir]'))button.addEventListener('click',()=>{s.cancel();s.begin('keyboard',0,0);s.move('keyboard',...button.dataset.dir.split(',').map(Number));draw();});draw();
