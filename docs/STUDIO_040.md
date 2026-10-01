@@ -38,4 +38,4 @@ Buscamos colaboración en diseño 2D, desarrollo Godot y, sobre todo, sonido: ef
 
 ## Comprobaciones
 
-En el proyecto privado se ejecutaron 69 pruebas Rust, 5 pruebas de los flujos TypeScript y 847 comprobaciones Godot. Se compiló Studio nativo en Linux y se comprobó una grabación real con OBS WebSocket, incluida la cancelación desde la interfaz. La integración prepara Windows y añade CI para ambas plataformas; la prueba gráfica de Windows sigue pendiente. Estas cifras son evidencia declarada del proyecto privado y se distinguen de las pruebas ejecutables de este repositorio público.
+En el proyecto privado se ejecutaron 69 pruebas Rust, 5 pruebas de los flujos TypeScript y 847 comprobaciones Godot. Se compiló Studio nativo en Linux y se comprobó una grabación real con OBS WebSocket, incluida la cancelación desde la interfaz. CI completada correctamente el 1 de octubre de 2026: pruebas y compilación nativa de Studio en Ubuntu 24.04 y Windows. La prueba gráfica de Studio y OBS en un equipo físico Windows sigue pendiente. Estas cifras son evidencia declarada del proyecto privado y se distinguen de las pruebas ejecutables de este repositorio público.
