@@ -2,7 +2,11 @@
 
 [← Inicio](../README.md)
 
-## Qué enseña esta publicación
+## Recorrido actual 0.4.0
+
+[Vídeo del juego y capturas de Studio](STUDIO_040.md): portadores, Vlad, Chloe, gran piñata, recompensas y selección de modos. Grabación real en perfil de demostración.
+
+## Galería anterior 0.3.0
 
 Capturas reales de la revisión Android 0.3.0: lobby, arena y comparación de portadores.
 

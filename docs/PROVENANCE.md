@@ -2,7 +2,11 @@
 
 [← Proyecto](../README.md)
 
-## Qué se publica
+## Vídeos y capturas 0.4.0
+
+El 1 de octubre de 2026 se añaden una grabación real de la ventana de Godot con OBS y capturas reales de Etherune Studio. El juego usa un perfil de demostración aislado. Los vídeos muestran el prototipo, no una exportación comercial ni conexión online. No se incluyen fuentes editables, configuraciones de Drive/OBS ni credenciales. La previsualización de Studio documenta una propuesta reversible archivada después. El contenido audiovisual se publica por autorización del autor del proyecto.
+
+## Muestra de control
 
 Port JavaScript de la normalización, límite y curva direccional de TouchStick.gd. El controlador aislado de propiedad del gesto, la cancelación del navegador y la demo son nuevos. No se extraen singletons ni lógica de combate.
 

@@ -12,7 +12,7 @@ Desde la raíz de este repositorio:
 node --test test/*.test.mjs
 ~~~
 
-Última ejecución local: **6 pruebas aprobadas**, 28 de septiembre de 2026. Este es un resultado fechado, no una promesa sobre cambios futuros.
+Última ejecución local: **6 pruebas aprobadas**, 1 de octubre de 2026. Este es un resultado fechado, no una promesa sobre cambios futuros.
 
 [Workflow y ejecuciones públicas](https://github.com/calinrus-dev/etherune-showcase/actions/workflows/verify.yml). Abre una ejecución para ver el commit exacto y los logs; el badge del README sigue la rama actual.
 
@@ -25,3 +25,7 @@ node --test test/*.test.mjs
 No es una build de Godot ni el juego completo. No implementa guardia, vibración ni el sistema de puntería. Las pruebas del port JavaScript no certifican la integración del control original en Android.
 
 Las pruebas nuevas ejercitan las piezas públicas. No se suman a las cifras históricas de tests del producto como si fueran la misma suite.
+
+## Recorrido y Studio 0.4.0
+
+El showcase se comprobó en navegador con reproducción del vídeo, imágenes y vista móvil. El MP4 principal dura 66,22 segundos, a 1280 × 720 y 30 fps, con vídeo H.264 y sonido AAC del juego. [Contexto y pruebas del producto privado](STUDIO_040.md).

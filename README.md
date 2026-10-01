@@ -2,7 +2,11 @@
 
 **Mi videojuego 2D en desarrollo.** Portadores, combate elemental, Resonancia, transformaciones y movimiento aéreo, con laboratorio y editor de escenarios. Estoy trabajando con una diseñadora 2D en su evolución visual.
 
-**Godot · GDScript** · Windows y Android como destinos del proyecto.
+**Godot · GDScript · Etherune Studio 0.4.0** · Juego en desarrollo; Studio preparado para Linux y Windows.
+
+[**Ver el recorrido 0.4.0 y el flujo de Studio →**](https://calinrus-dev.github.io/etherune-showcase/) · [Vídeo MP4](assets/videos/etherune-0.4.0.mp4) · [Capturas y flujo](docs/STUDIO_040.md)
+
+Joana Mauriño Casado colabora en el diseño 2D del proyecto. Buscamos más personas para diseño 2D, desarrollo con Godot y, especialmente, efectos, ambientes y mezcla de sonido. [Hablemos en LinkedIn](https://www.linkedin.com/in/calinrus-dev/).
 
 ![Arena real de Etherune en una captura del proyecto.](assets/arena.png)
 

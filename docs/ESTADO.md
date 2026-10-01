@@ -2,8 +2,8 @@
 
 [← Inicio](../README.md)
 
-**Estado publicado:** Videojuego en desarrollo · Colaboración de diseño 2D.  
-**Fecha de revisión:** 28 de septiembre de 2026.
+**Estado publicado:** Prototipo 0.4.0 en desarrollo · Studio y colaboración de diseño 2D.
+**Fecha de revisión:** 1 de octubre de 2026.
 
 ## Qué se ha comprobado
 
@@ -29,3 +29,7 @@ Este repositorio contiene una historia nueva de documentación pública. La impl
 ## Evidencia ejecutable añadida
 
 El escaparate incluye ahora una muestra pública acotada con pruebas y origen declarado. [Reproducir la comprobación](VERIFICATION.md). Su resultado no cambia por sí solo el estado de integración del producto completo descrito arriba.
+
+## Revisión 0.4.0
+
+Se incorpora el recorrido real grabado con OBS y las capturas de Studio. [Flujo, integración y comprobaciones](STUDIO_040.md). Las capturas Android 0.3.0 anteriores conservan su fecha y alcance.
