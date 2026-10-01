@@ -36,3 +36,5 @@ El juego sigue evolucionando: combate, lectura visual y contenido. Las capturas 
 
 
 [Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus-dev/)
+
+[Actualización 0.4.0 en LinkedIn: vídeo y flujo de Studio](https://www.linkedin.com/feed/update/urn:li:activity:7511262546050514944/).
